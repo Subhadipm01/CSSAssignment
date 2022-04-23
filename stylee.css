@@ -1,0 +1,43 @@
+
+#logo {
+    padding: 2rem;
+}
+#logo {
+    flex: 2 1 40rem;
+    font-family: "Pattaya", sans-serif;
+    font-weight: 400;
+}
+h1 {
+    font-size: 2.6rem;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+:-webkit-any(article, aside, nav, section) h1 {
+
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+user agent stylesheet
+h1 {
+    display: block;
+    
+    
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+@media screen and (max-width: 932px)
+nav {
+    text-align: center;
+}
+.main-head {
+    background: #131c27;
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+
